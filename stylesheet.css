@@ -1,0 +1,36 @@
+:root {
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+.h1{
+    color: var(--base);
+}
+img{
+    height: 610px;
+}
+body{
+    background: #E53935 ;
+    color: rgb(8, 8, 8);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 24px;
+    text-align: center;
+}
+
+.controls{
+
+    margin-bottom: 50px;
+}
+a {
+    color: var(--base);
+    text-decoration: none;
+}
+input {
+    width: 100px;
+}
